@@ -1,0 +1,1 @@
+draw_sprite_part(itemSprite, 0, xFrame * cellSize, yFrame * cellSize, cellSize, cellSize, x-xOffset, y-yOffset);
