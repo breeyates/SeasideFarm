@@ -1,15 +1,9 @@
 if(room == r_village) {
-	if(!instance_exists(o_fade)) {	
-		fade(r_market, 20, c_black)
-	}
+	room_goto(r_market);
 } 
 
 if (room == r_market) {
-	if(!instance_exists(o_fade)) {	
-		fade(r_village, 20, c_black)
-		
-		global.playerVillageY += 10
-	}
+	room_goto(r_village);
 }
 
 

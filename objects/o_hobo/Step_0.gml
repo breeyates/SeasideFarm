@@ -28,7 +28,7 @@ if(!talkedToday) {
 		];
 
 		speakers = [id, o_player, id, id, o_player, id, id];
-		nextLine = [0, [2, 3], 4, 4, [5,6], -1]
+		nextLine = [0, [2, 3], 4, -1, [5,6], -1]
 		
 		scripts = [ -1, 
 			[

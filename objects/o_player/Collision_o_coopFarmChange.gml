@@ -1,17 +1,11 @@
 if(room == r_farm) {
-	if(!instance_exists(o_fade)) {	
-		fade(r_coop, 20, c_black)
-	}
+	room_goto(r_coop);
 	
 	
 } 
 
 if (room == r_coop) {
-	if(!instance_exists(o_fade)) {	
-		fade(r_farm, 20, c_black)
-		global.playerFarmY += 10
-	}
-	
-	
+	room_goto(r_farm);
+		
 }
 
