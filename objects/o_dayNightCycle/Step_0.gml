@@ -85,7 +85,7 @@ if(drawLight) {
 //Changing days/months/year
 
 //Change this back to >= 24
-if(hours >= 24) {
+if(hours >= 4) {
 	seconds = 0;
 	day++;
 	
