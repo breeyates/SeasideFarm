@@ -26,10 +26,10 @@ enum phases {
 	//Sunrise = 6
 	sunrise = 0,
 	//Daytime = 9
-	daytime = 2,
+	daytime = 6,
 	//Sunset = 6
-	sunset = 3,
+	sunset = 16,
 	//Night = 9
-	night = 4,
+	night = 20,
 
 }
